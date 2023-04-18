@@ -1,0 +1,24 @@
+POST localhost:8080/person
+Content-Type: application/json
+
+{
+  "firstName": "A",
+  "lastName": "AA",
+  "middleName": "AAA"
+}
+
+###
+
+GET localhost:8080/person
+
+###
+
+POST localhost:8082/kafka
+Content-Type: application/json
+
+{
+  "firstName": "FFFFF",
+  "lastName": "SS",
+  "middleName": "SSS"
+}
+

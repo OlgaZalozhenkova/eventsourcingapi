@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/personApi
+    username: postgres
+    password: postgre
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      api-topic: api_topic
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: true
+
+server:
+  port: 8082
+
